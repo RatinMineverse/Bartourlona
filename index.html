@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bartourlona – Your Barcelona Travel Guide & Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Bartourlona Logo" id="logo">
+            <h1>Bartourlona</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#tours">Tours</a></li>
+                <li><a href="#vip">VIP</a></li>
+                <li><a href="#bookings">My Bookings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Discover Barcelona like a local</h2>
+            <p>Curated tours, exclusive experiences, and insider tips.</p>
+        </div>
+    </section>
+
+    <main>
+        <section id="tours">
+            <h2>Popular Tours & Activities</h2>
+            <div class="tours-grid" id="tours-container"></div>
+        </section>
+
+        <section id="vip">
+            <h2>✨ VIP Access ✨</h2>
+            <div id="vip-message"></div>
+            <div id="vip-tours-container" class="tours-grid"></div>
+            <div class="vip-cta">
+                <button id="vip-button">Become a VIP (simulate donation)</button>
+                <p class="small">Click to simulate a €10 donation and unlock VIP tours.</p>
+            </div>
+        </section>
+
+        <section id="bookings">
+            <h2>My Bookings</h2>
+            <div id="bookings-list"></div>
+            <button id="clear-bookings">Clear all bookings</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Bartourlona – Real travel, real Barcelona.</p>
+        <p>📸 Banner images from <a href="https://unsplash.com" target="_blank">Unsplash</a> · Logo designed with ❤️</p>
+    </footer>
+
+    <!-- Booking Modal -->
+    <div id="booking-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-tour-name"></h3>
+            <form id="booking-form">
+                <input type="hidden" id="tour-id">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" required>
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" min="1" max="10" value="1" required>
+                <button type="submit">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

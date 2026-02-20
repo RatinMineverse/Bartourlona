@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Sagrada Familia Skip-the-Line",
+        "description": "Guided tour of Gaudí's masterpiece with fast-track entry.",
+        "price": 49,
+        "image": "https://images.unsplash.com/photo-1572263936426-1d1c4f8f3e1a?w=400&h=300&fit=crop",
+        "vip": false
+    },
+    {
+        "id": 2,
+        "name": "Gothic Quarter Walking Tour",
+        "description": "Discover hidden plazas and medieval history with a local guide.",
+        "price": 25,
+        "image": "https://images.unsplash.com/photo-1582908903660-3e3f1d3f8b0c?w=400&h=300&fit=crop",
+        "vip": false
+    },
+    {
+        "id": 3,
+        "name": "Tapas & Flamenco Night",
+        "description": "Evening of authentic tapas and live flamenco show.",
+        "price": 65,
+        "image": "https://images.unsplash.com/photo-1551632811-5610e7b2b1e2?w=400&h=300&fit=crop",
+        "vip": false
+    },
+    {
+        "id": 4,
+        "name": "Montserrat Monastery Half-Day",
+        "description": "Visit the famous mountain monastery with breathtaking views.",
+        "price": 55,
+        "image": "https://images.unsplash.com/photo-1599409328657-9e9b4b8b8b8b?w=400&h=300&fit=crop",
+        "vip": false
+    },
+    {
+        "id": 5,
+        "name": "VIP: Private Yacht Sunset Cruise",
+        "description": "Luxury yacht tour with champagne and gourmet snacks.",
+        "price": 199,
+        "image": "https://images.unsplash.com/photo-1599409328657-9e9b4b8b8b8b?w=400&h=300&fit=crop",
+        "vip": true
+    },
+    {
+        "id": 6,
+        "name": "VIP: Gaudí Masterpieces Private Tour",
+        "description": "Exclusive access to Casa Batlló, La Pedrera, and Sagrada Familia with an art historian.",
+        "price": 299,
+        "image": "https://images.unsplash.com/photo-1582908903660-3e3f1d3f8b0c?w=400&h=300&fit=crop",
+        "vip": true
+    }
+]
